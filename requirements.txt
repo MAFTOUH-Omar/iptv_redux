@@ -1,0 +1,2 @@
+npm install -D @types/js-cookie
+npm install @reduxjs/toolkit react-redux axios js-cookie
