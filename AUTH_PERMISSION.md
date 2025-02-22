@@ -216,5 +216,3 @@ const hasPermission = useAppSelector(state =>
 ```typescript
 {hasPermission && <ProtectedContent />}
 ```
-
-4. Handle token expiration gracefully by implementing an axios interceptor
