@@ -6,7 +6,9 @@ import './index.css'
 // import { Demo } from './Demo';
 // import { PackageList } from './components/PackageList';
 // import { PackageDetail } from './components/PackageDetail';
-import PackageBouquet from './components/PackageBouquet';
+// import PackageBouquet from './components/PackageBouquet';
+// import TemplatesList from './components/TemplateList';
+import { TemplateDetail } from './components/TemplateDetail';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -14,7 +16,9 @@ createRoot(document.getElementById('root')!).render(
       {/* <Demo /> */}
       {/* <PackageList /> */}
       {/* <PackageDetail id={1} /> */}
-      <PackageBouquet />
+      {/* <PackageBouquet /> */}
+      {/* <TemplatesList /> */}
+      <TemplateDetail />
     </Provider>
   </StrictMode>
 )
